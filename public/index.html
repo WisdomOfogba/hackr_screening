@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackr Team Screening</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="terminal">
+    <h1>💀 Hackr Team Screening 💀</h1>
+    <p class="intro">
+      Do you have what it takes to <span class="glitch">WIN hackathons</span> with us?  
+      Fill this out and let’s hack the future together.
+    </p>
+
+    <form action="/submit" method="POST">
+      <label>👤 Full Name</label>
+      <input type="text" name="name" required placeholder="Your Name..">
+
+      <label>📧 Email</label>
+      <input type="email" name="email" required placeholder="youremail@gmail.com">
+
+      <label>💻 Tech Skills (e.g. React, Python, AI, Blockchain)</label>
+      <textarea name="skills" rows="3" required placeholder="e.g. React, Python, AI, Blockchain"></textarea>
+
+      <label>📈 Level Of experience</label>
+      <select name="level" required>
+        <option value="Frontend Developer">Beginner</option>
+        <option value="Backend Developer">Intermediate</option>
+        <option value="Fullstack Developer">Advanced</option>
+        <option value="UI/UX Designer">Expert</option>
+      </select>
+
+      <label>🎯 Preferred Role</label>
+      <select name="role" required>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="Fullstack Developer">Fullstack Developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+        <option value="AI/ML Engineer">AI/ML Engineer</option>
+        <option value="Cybersecurity Specialist">Cybersecurity Specialist</option>
+        <option value="Blockchain Developer">Blockchain Developer</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label>📈 Years of Experience</label>
+      <select name="experience" required>
+        <option value="0-1 years">0-1 years</option>
+        <option value="2-3 years">2-3 years</option>
+        <option value="4-5 years">4-5 years</option>
+        <option value="5+ years">5+ years</option>
+      </select>
+
+      <label>⏳ Availability</label>
+      <select name="availability" required>
+        <option value="Part-time">Part-time</option>
+        <option value="Full-time">Full-time</option>
+        <option value="Weekends only">Weekends only</option>
+      </select>
+
+      <label>🆔 GitHub</label>
+      <input type="text" name="github" required placeholder="https://github.com/username">
+
+      <label>🆔 LinkedIn (optional)</label>
+      <input type="text" name="linkedin" required placeholder="https://linkedin/in/username">
+
+      <label>🌐 Portfolio (optional)</label>
+      <input type="text" name="portfolio" placeholder="yoursite@gmail.com">
+
+      <button type="submit">🚀 Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>
